@@ -1,6 +1,6 @@
 # ExoServer
 
-**TODO: Add description**
+I don't understand what it is myself
 
 ## Installation
 
