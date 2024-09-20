@@ -1,18 +1,13 @@
 defmodule ExoServer do
   @moduledoc """
-  Documentation for `ExoServer`.
+  Something like `ExoServer`
   """
 
   @doc """
-  Hello world.
-
-  ## Examples
-
-      iex> ExoServer.hello()
-      :world
-
+  Returns the node name
   """
-  def hello do
-    :world
+  @spec ping() :: {:pong, atom()}
+  def ping do
+    {:pong, node()}
   end
 end
